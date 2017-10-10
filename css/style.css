@@ -1,0 +1,23 @@
+body {
+  background-image: none;
+  background-color: white;
+  text-align: center;
+  font-size: large;
+}
+
+#app-title {
+  
+}
+
+#image {
+   float: right;
+}
+
+#temperature-text {
+  padding-top: 10px;
+  float: left;
+}
+
+#temp-convert {
+  font-size: medium;
+}

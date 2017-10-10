@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h2 id="app-title">
+        Local Weather Viewer
+      </h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img id="image" width="50" height="50">
+        </div>
+        <div class="col-md-6">
+          <p id="temperature-text">&deg;F</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <p id="city-state">City, State</p>
+        </div>
+        <div class="col-md-4">
+          <p id="country">Country</p>
+        </div>
+        <div class="col-md-4">
+          <p id="summary">Summary</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <p id="wind-speed">wind</p>
+        </div>
+        <div class="col-md-4">
+          <p id="humidity">humidity</p>
+        </div>
+        <div class="col-md-4">
+          <p id="pressure">pressure</p>
+        </div>
+      </div>
+      <button id="temp-convert" class="btn btn-primary">convert to &deg;C</button>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
